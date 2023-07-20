@@ -30,6 +30,7 @@ For events when objects have a blocking collision, for example a player hitting 
 
 ```cpp
 #include "Components/SphereComponent.h" // add this to your includes
+//#include "Components/BoxComponent.h" // or another Collision Volume
 
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collision")
@@ -77,3 +78,8 @@ void AActor::OnXXXOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Othe
   }
 }
 ```
+<br />
+
+<br />
+
+Also: dont forget to enable Overlap in the Actors Properties under Collision and set it to OverlapAllDynamics.
