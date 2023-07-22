@@ -14,8 +14,8 @@ Create Mappings for your Actions with the new Enhanced Input Mapping.
 
 <br />
 
-First we need to create InputMap and a InputAction in the Editor.
-After you've done that and you also implemented the code below, dont forget to assign the Input inside YourCharacter's Blueprint.
+*First* we need to create a "Input Mapping Context" and a InputAction in the Unreal Engine Editor.
+After you've done that and you also implemented the code below, dont forget to assign the InputAction inside YourCharacter's Blueprint.
 It should be in the details panel under "Input" or "YourGameName|Input"
 <br />
 
@@ -47,6 +47,12 @@ class AYourCharacter : public ACharacter
 **YourCharacter.cpp**
 
 ```cpp
+...
+#include "Components/InputComponent.h"
+#include "EnhancedInputComponent.h"
+#include "EnhancedInputSubsystems.h"
+...
+
 AActor::AActor()
 {
   // Your other stuff
