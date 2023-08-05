@@ -31,7 +31,7 @@ When attaching objects to Bones on your Skeletal Mesh, it may be necessary to of
 #include "YourCharacter.generated.h"
 
 UCLASS(config=Game)
-class AEmkoCharacter : public ACharacter
+class AYourCharacter : public ACharacter
 {
   GENERATED_BODY()
 
