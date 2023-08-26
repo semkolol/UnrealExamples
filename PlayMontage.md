@@ -77,18 +77,18 @@ First Create a Animation Montage from your Animation Sequence, if you didn't alr
 <br/>
 Then add Notifiers, by right-clicking your Notifies Track:
 
-![AnimMontage1](/public/AnimMontage1.png)
+![AnimMontage1](/AnimMontage1.png)
 
 <br/>
 In my case I added "Hit" and "HitEnd". You can call them however you want, but keep the different naming in mind for later.
 
-![AnimMontage0](/public/AnimMontage0.png)
+![AnimMontage0](/AnimMontage0.png)
 
 <br/>
 In your Characters Animation Blueprint you can now add the Notifiy Events.
 Also, Target is MyCharacter Class, you can just Cast to your Character Class.
 
-![AnimMontage2](/public/AnimMontage2.png)
+![AnimMontage2](/AnimMontage2.png)
 
 <br/>
 
